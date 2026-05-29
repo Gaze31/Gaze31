@@ -1,16 +1,17 @@
-## Hi there 👋
+Hi, I'm Sumedha 👋
 
-<!--
-**Gaze31/Gaze31** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Quant finance and ML engineer with an M.Com Finance background.
+I build factor models, credit risk systems, NLP pipelines, and
+derivatives pricing engines — all production-grade, all with
+documented results.
 
-Here are some ideas to get you started:
+3 merged PRs to [yfinance](https://github.com/ranaroussi/yfinance) (22k+ ⭐)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+🔍 Open to quant/ML engineering roles · Remote globally
+
+💼 [LinkedIn](https://linkedin.com/in/sumedha-hundekar)
+🔗 [Freelancer](https://freelancer.com/u/sumedhah1)
+🚀 [Live API](https://credit-risk-api-t8m1.onrender.com/docs)
+📧 sumedha.hunekar31@gmail.com

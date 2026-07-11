@@ -7,7 +7,7 @@ I build models that survive walk-forward testing — then <b>ship</b> them as re
 
 <p align="center">
   <a href="https://linkedin.com/in/sumedha-hundekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://credit-risk-api-1eop.vercel.app"><img src="https://img.shields.io/badge/Live_API-Try_it-00C853?style=for-the-badge&logo=fastapi&logoColor=white"></a>
+  <a href="https://credit-risk-api-1eop.vercel.app/docs"><img src="https://img.shields.io/badge/Live_API-Try_it-00C853?style=for-the-badge&logo=fastapi&logoColor=white"></a>
   <a href="mailto:sumedha.hunekar31@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://freelancer.com/u/sumedhah1"><img src="https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a>
 </p>
@@ -24,7 +24,7 @@ I build models that survive walk-forward testing — then <b>ship</b> them as re
 ### 🖥️ Full-stack / ML engineering work
 
 - 🏦 **Credit Risk API** — gradient boosting (0.77 AUC), calibrated probabilities, serverless FastAPI on Vercel, React dashboard
-- 🔗 **[Live, working endpoint](https://credit-risk-api-t8m1.onrender.com/docs)** — hit it right now, it's real
+- 🔗 **[Live, working endpoint](https://credit-risk-api-1eop.vercel.app/docs)** — hit it right now, it's real
 - 🐳 Model training → REST API → Postgres → React UI → containerized deploy
 
 ---
@@ -41,12 +41,17 @@ I build models that survive walk-forward testing — then <b>ship</b> them as re
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gaze31&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gaze31&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://img.shields.io/github/followers/Gaze31?style=for-the-badge&logo=github&label=followers&color=00C853"/>
+
 </p>
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Gaze31&label=Profile+views&color=00C853&style=flat-square"/>
+  <img src="https://img.shields.io/github/stars/Gaze31/alpha-engine?style=for-the-badge&label=alpha-engine"/>
+  <img src="https://img.shields.io/github/stars/Gaze31/credit-risk-api?style=for-the-badge&label=credit-risk-api"/>
+</p>
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Gaze31&label=Profile+views&color=00C853&style=for-the-badge"/>
 </p>
 
 ---
@@ -58,3 +63,6 @@ Open to **quant/ML engineering** roles — remote, globally.
 <p align="left">
   <a href="https://linkedin.com/in/sumedha-hundekar"><img src="https://img.shields.io/badge/Let's_connect-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
+
+
+

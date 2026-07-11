@@ -1,0 +1,66 @@
+# Save this file as: .github/workflows/metrics.yml
+# in your Gaze31/Gaze31 repo (the special repo GitHub uses for your profile README)
+#
+# This regenerates a metrics.svg every 12 hours via GitHub Actions,
+# using the same engine (lowlighter/metrics) that powers the Simon Lecoq example.
+
+name: Metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  push:
+    branches: [main]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}   # see setup note below
+
+          # --- Base stats ---
+          plugin_lines: yes
+          plugin_lines_history_limit: 30
+
+          # --- Languages: per-repo AND per-commit breakdown ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_details: bytes-size
+
+          # --- Commit activity per time-of-day (like Simon's "coding habits") ---
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 7
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: bar
+
+          # --- 3D isometric contribution calendar (the standout visual from image 2) ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- Achievements (real GitHub achievements, not fake trophies) ---
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+
+          # --- Repo/PR/issue activity summary ---
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+
+          # --- Notable open-source contributions (surfaces your yfinance PRs) ---
+          plugin_notable: yes
+          plugin_notable_from: 2023-01-01
+          plugin_notable_repositories: ranaroussi/yfinance
+
+          config_timezone: Asia/Kolkata
+          config_display: large
